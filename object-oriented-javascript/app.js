@@ -155,6 +155,7 @@ class Dog {
     Dog.numberOfDogs += 1;
   }
 
+  // Private Method
   #doesDogHasTail() {
     return this.#hasTail;
   }
